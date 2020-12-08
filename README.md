@@ -128,5 +128,16 @@ selectedPolitiker.
 ### Resultat
 ![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift6.gif)
 
+## Fråga 8 – Life-cycle-hooks (Om du hinner)
+1. Gör ett API anrop med följande fetch-anrop på lämplig life-cycle metod:
+```
+fetch('https://jsonplaceholder.typicode.com/photos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+```
+2. Titta på datats typer i webbläsarens konsol.
+3. Lagra sedan datat i en variabel som heter photo.
+4. Presentera photo i html:en med lämpliga taggar.
+
 
 
