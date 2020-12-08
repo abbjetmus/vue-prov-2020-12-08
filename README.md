@@ -46,3 +46,4 @@ du väljer själv om du vill använda <**ul**> unorderd-list eller <**ol**> orde
 4. Googla en valfri bild och kopiera bild-addressen till input-fältet så det visas i <img> taggen.
 
 ### Resultat
+![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift3.gif)
