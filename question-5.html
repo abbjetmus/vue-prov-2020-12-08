@@ -1,0 +1,47 @@
+<!-------------------
+Fråga 5.
+---------------------
+1. Skapa en checkbox med input-taggen som två-vägs binder med v-model till en data variabel som heter background med värdet false.
+2. Använd sedan två css-klasser i styles taggen innanför head taggen som heter "backgroundGreen" och "backgroundRed".
+klasserna ska sätta background-color till red respektive green.
+3. Skapa sedan en div tagg med koden nedan:
+<div style="width:200px; height: 200px;">
+</div>
+4. Bind div-taggens class attribut så att backgroundsfärgen ändras mellan rött och grönt när man bockar i och av den. 
+-->
+
+<html>
+
+<head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style>
+        .backgroundGreen {
+            background-color: green;
+        }
+
+        .backgroundRed {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+
+            }
+        })
+    </script>
+
+</body>
+
+</html>

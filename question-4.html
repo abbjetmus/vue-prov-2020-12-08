@@ -1,0 +1,45 @@
+<!-------------------
+Fråga 4.
+--------------------
+1. Skapa en data variabel med namnet politiker som är en array och innehåller fem objekt med politiker:
+
+{id: 1, firstName: 'Stefan', lastName: 'Löven'},
+{id: 2, firstName: 'Annie', lastName: 'Lööv'},
+{id: 3, firstName: 'Nyamko', lastName: 'Sabuni'},
+{id: 4, firstName: 'Jimmie', lastName: 'Åkesson'},
+{id: 5, firstName: 'Per', lastName: 'Bolund'},
+
+2. Skapa ett inmatningsfält med input-taggen. 
+3. Fältet ska kunna ta in en siffra och två-vägs-binda med hjälp av v-model till en data variabel som heter selectedId.
+4. Skapa ytterligare variabel som heter selectedPolitiker.
+5. Skapa sedan en watcher som lyssnar på värdet i selectedId och baserat på selectedId filtrerar politiker arrayen efter politikern med det id:t.
+selectedPolitiker ska tilldelas den filtrerade politikern i watchern.
+6. Visa namnet på selectedPolitiker med valfri tagg i html-koden.
+-->
+
+<html>
+
+<head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+
+            }
+        })
+    </script>
+
+</body>
+
+</html>
