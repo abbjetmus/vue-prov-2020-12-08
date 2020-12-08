@@ -1,6 +1,4 @@
 # vue-prov-2020-12-08
-Vue prov för 190s
-
 ## Att tänka på
 
 1. Använd back-ticks **` ` (shift + `)** om du vill ha html över flera rader i en komponent.
