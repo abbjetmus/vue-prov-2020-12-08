@@ -69,3 +69,39 @@ selectedPolitiker ska tilldelas den filtrerade politikern i watchern.
 ### Resultat
 ![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift4.gif)
 
+## Fråga 5 – Klass bindning (Class binding)
+1. Skapa en checkbox med input-taggen som två-vägs binder med **v-model** till en data variabel som heter **background** med värdet **false**.
+2. Använd sedan två css-klasser i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
+```
+    <style>
+        .backgroundGreen {
+            background-color: green;
+        }
+
+        .backgroundRed {
+            background-color: red;
+        }
+    </style>
+```
+klasserna ska sätta background-color till red respektive green.
+3. Skapa sedan en div tagg med koden nedan:
+```
+<div style="width: 200px; height: 200px;"></div>
+```
+4. Bind div-taggens class attribut så att backgroundsfärgen ändras mellan rött och grönt när man bockar i och av den.
+
+### Resultat
+![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift5.gif)
+
+### Fråga 6 – Slots 
+1. Skapa en komponent som heter **kroppcomponent**. 
+2. **kroppcomponent** ska ha fyra namngivna slots med namnen "head", "shoulder", "knee" och "toe".
+3. Använd sedan **kroppcomponent** i '#app'-komponenten och skicka in fyra valfria taggar via slotsen med texten
+"Huvud", "Axlar", "Knä" och "Tå".
+
+### Resultat
+
+**Huvud**<br><br>
+**Axlar**<br><br>
+**Knä**<br><br>
+**Tå**<br><br>
