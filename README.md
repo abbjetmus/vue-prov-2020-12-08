@@ -5,7 +5,7 @@ Börja med att klona eller ladda ner projektet.
 <br>
 ## Att tänka på
 
-1. Använd back-ticks **` ` (shift + `)** om du vill ha html över flera rader i en komponent.
+1. Använd back-ticks **\` \` (shift + `)** om du vill ha html över flera rader i en komponent.
 ```
 var testcomponent = {
        template: `
