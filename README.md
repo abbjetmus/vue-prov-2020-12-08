@@ -15,7 +15,7 @@ var testcomponent = {
 
 ## Fråga 1 - Interpolation
 
-Skapa två data variabler som heter **pi** och **e**, tilldela pi värdet 3.14 och e värdet 2.71.
+Skapa två data variabler som heter **pi** och **e**, tilldela pi värdet 3.14 och e värdet 2.71.<br>
 Skriv sedan ut texten **"Pi har värdet 3.14"** och **"E har värdet 2.71"** med hjälp av data variablerna och valfria taggar.
 
 ### Resultat
@@ -31,5 +31,18 @@ Skriv sedan ut texten **"Pi har värdet 3.14"** och **"E har värdet 2.71"** med
 {id: 3, name: 'Nalle'}
 ```
 
-2. Loopa sedan igenom arrayen med studenterna i en html lista där du skriver ut namnet,
+2. Loopa sedan igenom arrayen med studenterna i en html lista där du skriver ut namnet,<br>
 du väljer själv om du vill använda <**ul**> unorderd-list eller <**ol**> ordered-list.
+
+### Resultat
+* Kalle
+* Pelle
+* Nalle
+
+## Fråga 3 – Två-vägs-bindning
+1. Skapa ett inmatningsfält med **input**-taggen. 
+2. Fältet ska två-vägs-binda med hjälp av **v-model** till en data variabel som heter image.
+3. Skapa en <img> tagg som också binder till image variabeln med src attributet och visar bilden som matas in i input-taggen.
+4. Googla en valfri bild och kopiera bild-addressen till input-fältet så det visas i <img> taggen.
+
+### Resultat
