@@ -105,3 +105,28 @@ klasserna ska sätta background-color till red respektive green.
 **Axlar**<br><br>
 **Knä**<br><br>
 **Tå**<br><br>
+
+
+## Fråga 7 – Komponent kommunikation
+1. Skapa en data variabel med namnet **politikerList** som är en **array [ ]** och innehåller fem objekt med politiker:
+
+```
+{id: 1, firstName: 'Stefan', lastName: 'Löven', party: 'Socialdemokraterna'},
+{id: 2, firstName: 'Annie', lastName: 'Lööv', party: 'Centerpartiet'},
+{id: 3, firstName: 'Nyamko', lastName: 'Sabuni', party: 'Liberalerna'},
+{id: 4, firstName: 'Jimmie', lastName: 'Åkesson', party: 'Sverigedemokraterna'},
+{id: 5, firstName: 'Per', lastName: 'Bolund', party: 'Mijlöpartiet'},
+```
+
+Skapa också en variabel som heter **selectedPolitiker**
+2. Skapa sedan en komponent som heter **politikeritem** som tar in en politiker som props.
+**politikeritem** visar politikerns namn tillsammans med en knapp bredvid.
+3. När man klickar på knappen ska politikern skickas till parent komponenten (app-komponenten) och tilldelas till
+selectedPolitiker.
+4. **selectedPolitiker** ska sedan visas i html med all information.
+
+### Resultat
+![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift6.gif)
+
+
+
