@@ -2,13 +2,14 @@
 ## Att tänka på
 
 1. Använd back-ticks **` ` (shift + `)** om du vill ha html över flera rader i en komponent.
-```        var testcomponent = {
-            template: `
-                <div>
-                    <p></p>
-                </div>
-            `
-        }
+```
+var testcomponent = {
+       template: `
+           <div>
+              <p></p>
+           </div>
+          `
+       }
 ```
 2.	Använd små bokstäver på komponent-namn och events/metoder.
 
