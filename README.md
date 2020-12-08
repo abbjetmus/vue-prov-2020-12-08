@@ -1,4 +1,8 @@
 # vue-prov-2020-12-08
+Börja med att klona eller ladda ner projektet.
+<br>
+`git clone https://github.com/abbjetmus/vue-prov-2020-12-08.git`
+<br>
 ## Att tänka på
 
 1. Använd back-ticks **` ` (shift + `)** om du vill ha html över flera rader i en komponent.
