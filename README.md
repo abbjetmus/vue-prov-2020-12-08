@@ -142,4 +142,6 @@ fetch('https://jsonplaceholder.typicode.com/photos/1')
 4. Presentera photo i html:en med lämpliga taggar.
 
 
+### Resultat
+![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift8.png)
 
